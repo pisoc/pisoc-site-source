@@ -10,9 +10,7 @@ Meetings are the best place to get help with anything computer related - collect
 ### Email
 The exec team can be contacted by email:
 
-- President - [Tom Mitchell](mailto:t.mitchell1@bradford.ac.uk)
-- Vice President - [Ioannis Profetis](mailto:i.profetis@bradford.ac.uk)
-- Treasurer - [Paul Rezabek](mailto:p.rezabek@bradford.ac.uk)
-- Social Exec - [Tom Green](mailto:T.R.Green1@bradford.ac.uk)
-- Social Exec - [Luke Morris](mailto:l.a.morris@bradford.ac.uk)
-- Media Exec - [Nathan Towler](mailto:N.Towler@bradford.ac.uk)
+- President - [Alex Mayes](mailto:a.r.v.mayes@bradford.ac.uk)
+- Vice President & Technical Exec - [Ben Yarker](mailto:b.yarker1@bradford.ac.uk)
+- Treasurer - [Nathan Towler](mailto:N.Towler@bradford.ac.uk)
+- Social Exec - [Bradley Howarth](mailto:b.howarth2@bradford.ac.uk)
