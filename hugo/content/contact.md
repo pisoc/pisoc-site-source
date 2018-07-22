@@ -1,8 +1,5 @@
 ---
 title: "Contact Us"
-date: 1337-01-01
-author: "Tom Mitchell"
-tags: ["meta", "contact"]
 draft: false
 ---
 

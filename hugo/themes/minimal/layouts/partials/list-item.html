@@ -17,7 +17,12 @@
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
     <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
+
+    {{ if ne "page" .Type }}
     <h5>Author: {{ .Params.author }} | Date: {{ $.Scratch.Get "subtitle" }}</h5>
+    {{ end }}
+
+
     {{ range .Params.tags }} <kbd class="item-tag">{{ . }}</kbd> {{ end }}
 
 </div>
