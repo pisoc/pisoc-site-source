@@ -1,6 +1,6 @@
 languageCode = "en"
 title = "Pi Society"
-theme = "minimal"
+theme = "pisoc-minimal"
 
 [params]
     githubUsername = "pisoc"

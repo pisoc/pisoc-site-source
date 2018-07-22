@@ -1,3 +1,0 @@
----
-title: "{{ replace .TranslationBaseName "-" " " | title }}"
----
