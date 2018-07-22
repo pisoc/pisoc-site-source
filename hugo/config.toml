@@ -1,0 +1,52 @@
+languageCode = "en"
+title = "Pi Society"
+theme = "minimal"
+
+[params]
+    githubUsername = "pisoc"
+    accent = "green"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["python", "go"]
+
+[[menu.main]]
+    url = "/"
+    name = "home"
+    weight = 1
+
+[[menu.main]]
+    url = "/posts"
+    name = "posts"
+    weight = 2
+
+[[menu.main]]
+    url = "/contact"
+    name = "contact"
+    weight = 3
+
+[[menu.main]]
+    url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc/"
+    name = "join"
+    weight = 4
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:pisoc@ubu.bradford.ac.uk"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.facebook.com/groups/ubupisoc"
+    name = "facebook-square"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://github.com/pisoc"
+    name = "github-square"
+    weight = 3
