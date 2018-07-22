@@ -16,7 +16,7 @@
     {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") | $.Scratch.Set "subtitle" }}
     {{ with .Description }} {{ $.Scratch.Set "subtitle" . }} {{ end }}
 
-    <h4><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h4>
+    <h3><a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a></h3>
 
     {{ if ne "page" .Type }}
     <h5>Author: {{ .Params.author }} | Date: {{ $.Scratch.Get "subtitle" }}</h5>
