@@ -45,6 +45,19 @@ def pretty_log_stdout(stdout):
             app.logger.info(line)
 
 
+def verify_webhook(request):
+    predicted = 'sha1=' + hmac.new(
+        os.getenv('PISOCNET_REBUILD_SECRET').encode(),
+        request.get_data(),
+        hashlib.sha1
+    ).hexdigest()
+
+    received = request.headers['X-Hub-Signature']
+
+    app.logger.info(f'Predicted: {predicted}')
+    app.logger.info(f'Received:  {received}')
+    return hmac.compare_digest(predicted, received)
+
 @app.route('/')
 def index():
     """Serves the index page"""
@@ -66,38 +79,42 @@ def rebuild():
     If verification succeeds, the new version of the site is pulled from
     GitHub, and built with hugo.
     """
-    predicted = 'sha1=' + hmac.new(
-        os.getenv('PISOCNET_REBUILD_SECRET').encode(),
-        flask.request.get_data(),
-        hashlib.sha1
-    ).hexdigest()
 
-    received = flask.request.headers['X-Hub-Signature']
+    matching = verify_webhook(flask.request)
 
-    app.logger.info(f'Predicted: {predicted}')
-    app.logger.info(f'Received:  {received}')
+    if not matching:
+        app.logger.warning('Could not verify webhook. Aborting!')
+        return ''
+    else:  
+        app.logger.info('Verified webhook')
+
+    ref = flask.request.get_json().get('ref')
+
+    if ref is None or not ref.endswith('master'):
+        app.logger.info('Push wasn\'t made to master')
+        return ''
 
     # XXX: A pull taking too long here might cause issues
-    if hmac.compare_digest(predicted, received):
-        options = {
-            'stdout': subprocess.PIPE,
-            'stderr': subprocess.STDOUT,
-            'universal_newlines': True
-        }
+    app.logger.info('Push made to master')
+    options = {
+        'stdout': subprocess.PIPE,
+        'stderr': subprocess.STDOUT,
+        'universal_newlines': True
+    }
 
-        app.logger.info('Pulling from git:')
-        pretty_log_stdout(subprocess.run(
-            'git pull'.split(),
-            **options
-        ).stdout)
+    app.logger.info('Pulling from git:')
+    pretty_log_stdout(subprocess.run(
+        'git pull --recurse-submodules'.split(),
+        **options
+    ).stdout)
 
-        # BUG: Raw hugo stdout still making it to logs
-        # [74B blob data], etc
-        app.logger.info('Rebuilding site:')
-        pretty_log_stdout(subprocess.run(
-            'hugo --cleanDestinationDir -s hugo/'.split(),
-            **options
-        ).stdout)
+    # BUG: Raw hugo stdout still making it to logs
+    # [74B blob data], etc
+    app.logger.info('Rebuilding site:')
+    pretty_log_stdout(subprocess.run(
+        'hugo --cleanDestinationDir -s hugo/'.split(),
+        **options
+    ).stdout)
 
     return ''
 
