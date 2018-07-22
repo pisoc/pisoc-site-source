@@ -123,3 +123,8 @@ def rebuild():
 def page_not_found(_):
     """Serve 404.html when a 404 happens"""
     return serve_from_public('404.html'), 404
+
+@app.errorhandler(500)
+def internal_server_error(_):
+    """Serve 500.html when a 500 happens"""
+    return serve_from_public('500.html'), 404
