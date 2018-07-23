@@ -1,7 +1,6 @@
 ---
 title: "Welcome, Freshers of 2017"
 date: 2017-09-17
-author: "Tom Mitchell"
 tags: ["freshers", "welcome", "irl"]
 draft: false
 ---

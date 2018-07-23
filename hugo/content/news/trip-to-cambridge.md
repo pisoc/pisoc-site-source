@@ -1,7 +1,6 @@
 ---
 title: "Trip to The Centre for Computing History"
 date: 2017-02-25
-author: "Adam Brewer"
 tags: ["cambridge", "computer history", "trollface", "trip"]
 draft: false
 ---
