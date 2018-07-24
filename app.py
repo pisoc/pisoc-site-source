@@ -102,15 +102,17 @@ def rebuild():
         'universal_newlines': True
     }
 
-    app.logger.info('Updating submodules:')
-    pretty_log_stdout(subprocess.run(
-        'git submodule update --recursive --remote'.split(),
-        **options
-    ).stdout)
-
+    # XXX: Swapped the "pull from git" and "update submodules" blocks
+    # to see if the CD system stops breaking
     app.logger.info('Pulling from git:')
     pretty_log_stdout(subprocess.run(
         'git pull --recurse-submodules'.split(),
+        **options
+    ).stdout)
+
+    app.logger.info('Updating submodules:')
+    pretty_log_stdout(subprocess.run(
+        'git submodule update'.split(),
         **options
     ).stdout)
 
