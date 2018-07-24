@@ -102,14 +102,14 @@ def rebuild():
         'universal_newlines': True
     }
 
-    # XXX: Swapped the "pull from git" and "update submodules" blocks
-    # to see if the CD system stops breaking
+    # Pull changes and new submodule "pointer"
     app.logger.info('Pulling from git:')
     pretty_log_stdout(subprocess.run(
         'git pull --recurse-submodules=yes'.split(),
         **options
     ).stdout)
 
+    # Pull from new submodule "pointer"
     app.logger.info('Updating submodules:')
     pretty_log_stdout(subprocess.run(
         'git submodule update --init --recursive'.split(),
