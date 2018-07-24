@@ -106,13 +106,13 @@ def rebuild():
     # to see if the CD system stops breaking
     app.logger.info('Pulling from git:')
     pretty_log_stdout(subprocess.run(
-        'git pull --recurse-submodules'.split(),
+        'git pull'.split(),
         **options
     ).stdout)
 
     app.logger.info('Updating submodules:')
     pretty_log_stdout(subprocess.run(
-        'git submodule update'.split(),
+        'git submodule update --init'.split(),
         **options
     ).stdout)
 
