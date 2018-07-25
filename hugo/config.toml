@@ -37,21 +37,21 @@ theme = "pisoc-minimal"
     name = "join"
     weight = 5
 
+[[menu.main]]
+    url = "https://github.com/pisoc"
+    name = "github"
+    weight = 6
+
+[[menu.main]]
+    url = "https://www.facebook.com/groups/ubupisoc"
+    name = "facebook"
+    weight = 7
+
+[[menu.main]]
+    url = "mailto:pisoc@ubu.bradford.ac.uk"
+    name = "email"
+    weight = 8
+
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:pisoc@ubu.bradford.ac.uk"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://www.facebook.com/groups/ubupisoc"
-    name = "facebook-square"
-    weight = 2
-
-[[menu.icon]]
-    url = "https://github.com/pisoc"
-    name = "github-square"
-    weight = 3
