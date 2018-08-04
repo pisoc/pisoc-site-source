@@ -46,6 +46,9 @@ def pretty_log_stdout(stdout):
 
 
 def verify_webhook(request):
+    """Verifies the webhook content hasn't been tampered with, and is sent by GitHub:
+    https://developer.github.com/webhooks/securing/#validating-payloads-from-github
+    """
     predicted = 'sha1=' + hmac.new(
         os.getenv('PISOCNET_REBUILD_SECRET').encode(),
         request.get_data(),
@@ -85,8 +88,8 @@ def rebuild():
     if not matching:
         app.logger.warning('Could not verify webhook. Aborting!')
         return ''
-    else:  
-        app.logger.info('Verified webhook')
+
+    app.logger.info('Verified webhook')
 
     ref = flask.request.get_json().get('ref')
 
