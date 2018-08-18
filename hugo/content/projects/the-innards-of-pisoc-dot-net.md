@@ -2,7 +2,7 @@
 title: "The innards of pisoc.net"
 author: "Tom Mitchell"
 description: "The (somewhat gory) innards of pisoc.net"
-date: 2018-07-23
+date: 2018-08-18
 repo: "https://github.com/pisoc/pisoc.net"
 tags: ['python', 'hugo', 'flask', 'github']
 draft: false
