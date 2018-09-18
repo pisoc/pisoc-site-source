@@ -105,15 +105,17 @@ def rebuild():
         'universal_newlines': True
     }
 
-    app.logger.info('Updating submodules:')
+    # Pull changes and new submodule "pointer"
+    app.logger.info('Pulling from git:')
     pretty_log_stdout(subprocess.run(
-        'git submodule update --recursive --remote'.split(),
+        'git pull --recurse-submodules=yes'.split(),
         **options
     ).stdout)
 
-    app.logger.info('Pulling from git:')
+    # Pull from new submodule "pointer"
+    app.logger.info('Updating submodules:')
     pretty_log_stdout(subprocess.run(
-        'git pull --recurse-submodules'.split(),
+        'git submodule update --init --recursive'.split(),
         **options
     ).stdout)
 
