@@ -14,3 +14,4 @@ The exec team can be contacted by email:
 - Vice President & Technical Exec - [Ben Yarker](mailto:b.yarker1@bradford.ac.uk)
 - Treasurer - [Nathan Towler](mailto:N.Towler@bradford.ac.uk)
 - Social Exec - [Bradley Howarth](mailto:b.howarth2@bradford.ac.uk)
+- Group Inbox - [Use this if you don't know who to contact or for general inquiries about us](mailto:pisoc@ubu.bradford.ac.uk)
