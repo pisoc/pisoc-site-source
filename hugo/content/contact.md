@@ -11,7 +11,7 @@ Meetings are the best place to get help with anything computer related - collect
 The exec team can be contacted by email:
 
 - President - [Chris Delee](mailto:cdelee@bradford.ac.uk)
-- Vice President - [Ben Yarker](mailto:shall9@bradford.ac.uk)
+- Vice President - [Stephen Hall](mailto:shall9@bradford.ac.uk)
 - Treasurer - [Alex Mayes](mailto:arvmayes@bradford.ac.uk)
 - Social Exec - [Tom Mitchell](mailto:tmitchell1@bradford.ac.uk)
 - Technical Exec - [Ben Yarker](mailto:byarker1@bradford.ac.uk)
