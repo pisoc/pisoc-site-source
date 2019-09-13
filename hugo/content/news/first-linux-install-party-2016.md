@@ -1,7 +1,6 @@
 ---
 title: "Linux install party announcement"
 date: 2017-03-06
-author: "Adam Brewer"
 tags: ["linux", "install party", "event"]
 draft: false
 ---

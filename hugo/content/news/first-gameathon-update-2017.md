@@ -1,7 +1,6 @@
 ---
 title: "Gameathon update"
 date: 2017-03-02
-author: "Tom Mitchell"
 tags: ["gameathon", "update", "xonotic", "raspberry pi", "event"]
 draft: false
 ---

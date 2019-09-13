@@ -1,0 +1,3 @@
+[submodule "hugo/themes/pisoc-minimal"]
+	path = hugo/themes/pisoc-minimal
+	url = https://github.com/pisoc/pisoc-minimal

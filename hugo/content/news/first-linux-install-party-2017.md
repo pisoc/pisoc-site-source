@@ -1,7 +1,6 @@
 ---
 title: "Linux install party announcement"
 date: 2017-10-02
-author: "Ioannis Profetis"
 tags: ["linux", "install party", "free pizza", "event"]
 draft: false
 ---

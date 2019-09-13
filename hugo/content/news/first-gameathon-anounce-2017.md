@@ -1,7 +1,6 @@
 ---
 title: "Gameathon announcement"
 date: 2017-02-25
-author: Tom Mitchell
 tags: ["gameathon", "announcement", "xonotic", "raspberry pi", "event"]
 draft: false
 ---
