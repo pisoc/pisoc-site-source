@@ -1,7 +1,6 @@
 ---
 title: "Election Results 2017"
 date: 2017-04-16
-author: "Tom Mitchell"
 tags: ["election results", "exec", "irl"]
 draft: false
 ---
