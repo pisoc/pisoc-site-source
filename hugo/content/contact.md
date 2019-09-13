@@ -1,9 +1,5 @@
 ---
 title: "Contact Us"
-date: 1337-01-01
-author: "Tom Mitchell"
-tags: ["meta", "contact"]
-draft: false
 ---
 
 ### Meetings
@@ -14,9 +10,9 @@ Meetings are the best place to get help with anything computer related - collect
 ### Email
 The exec team can be contacted by email:
 
-- President - [Tom Mitchell](mailto:t.mitchell1@bradford.ac.uk)
-- Vice President - [Ioannis Profetis](mailto:i.profetis@bradford.ac.uk)
-- Treasurer - [Paul Rezabek](mailto:p.rezabek@bradford.ac.uk)
-- Social Exec - [Tom Green](mailto:T.R.Green1@bradford.ac.uk)
-- Social Exec - [Luke Morris](mailto:l.a.morris@bradford.ac.uk)
-- Media Exec - [Nathan Towler](mailto:N.Towler@bradford.ac.uk)
+- President - [Chris Delee](mailto:cdelee@bradford.ac.uk)
+- Vice President - [Ben Yarker](mailto:shall9@bradford.ac.uk)
+- Treasurer - [Alex Mayes](mailto:arvmayes@bradford.ac.uk)
+- Social Exec - [Tom Mitchell](mailto:tmitchell1@bradford.ac.uk)
+- Technical Exec - [Ben Yarker](mailto:byarker1@bradford.ac.uk)
+- Group Inbox - [Use this if you don't know who to contact or for general inquiries about us](mailto:pisoc@ubu.bradford.ac.uk)
