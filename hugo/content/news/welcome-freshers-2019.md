@@ -29,7 +29,7 @@ As it's fresher's week (at the time of writing, at least), we have a gameathon c
 
 On Friday 20th, between 14:00 to 18:00, we'll be in Horton D1.24. Free snacks and drinks will be provided.
 
-We'll be running tournaments of Xonotic (a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Quake](https://en.wikipedia.org/wiki/Quake_(video_game)) clone), Eggnogg+ (A free [Nidhogg](http://nidhogggame.com/) clone), and Worms Battlegrounds ([this link will explain](https://youtu.be/MzqZI3YgwRc?t=15)) and giving Raspberry Pis and/or other goodies to the winners.
+We'll be running tournaments of Xonotic (a [FOSS](https://en.wikipedia.org/wiki/Free_and_open-source_software) [Quake](https://en.wikipedia.org/wiki/Quake_(video_game)) clone), Eggnogg+ (a free [Nidhogg](http://nidhogggame.com/) clone), and Worms Battlegrounds ([this link will explain](https://youtu.be/MzqZI3YgwRc?t=15)) and giving Raspberry Pis and/or other goodies to the winners.
 
 If you'd prefer to chill out and socialise we also have Mortal Kombat 11, [Giraffe Volleyball](https://sandwichpuissant.itch.io/giraffes-volleyball-championship-2016), [One Button Duel](https://seansleblanc.itch.io/one-button-duel), [Pinky](https://garlicnoodles.itch.io/pinky), and [Blind Shootout](https://glimaleite.itch.io/blind-shootout). We'll be going to Wetherspoons afterwards for some food and a drink (or several...).
 
