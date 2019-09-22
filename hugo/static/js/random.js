@@ -5,12 +5,12 @@ var messages = [
     "PLACEHOLDER TEXT LOL",
     "THIS WAS A TRIUMPH. I'M MAKING A NOTE HERE, HUGE SUCCESS",
     "MONADONOMICON",
-    "SEGMENTATION FAULT", 
+    "SEGMENTATION FAULT (CORE DUMPED)", 
     "I DO WHAT I WANT",
     "SUBTITLE GOES HERE",
     "I DID IT FOR TEH LULZ",
     "NERD LIFE: I'M LIVING IT",
-    "PUSH POP CHANGE ORDER STACK FRAME FILO"
+    "PUSH POP CHANGE ORDER STACK FRAME FILO",
+    "FILE SYSTEM INODES ALL FALL TO MY FLOW"
 ];
-var randNum = Math.floor(Math.random() * messages.length);
-document.getElementById("subtitle").innerHTML = messages[randNum];
+document.getElementById("subtitle").innerHTML = messages[Math.floor(Math.random() * messages.length)];
