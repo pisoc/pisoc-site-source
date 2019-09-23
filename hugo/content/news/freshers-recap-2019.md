@@ -1,6 +1,6 @@
 ---
 title: "Freshers' Week 2019 recap"
-date: 2019-09-23
+date: 2019-09-22
 tags: ["freshers", "recap", "irl", "2019"]
 draft: false
 ---
