@@ -12,7 +12,7 @@ We've had a awful lot of fun running events for the past week. If you missed out
 ### Tuesday: Computer Science Induction talks
 You may have seen our president, Chris Delee, give an "intro to PiSoc" talk at the induction day event. It covered  who we are, what we do, and where you can find us if you want to get involved. If you didn't get a chance to see the talk, or speak to us during the break/lab session, you can read our 2019 welcome post [here](https://pisoc.net/news/welcome-freshers-2019/). It should bring you up to speed!
 
-(Photos coming soon!)
+![Tom up at the podium](/img/induction_talk_2019.jpg "An old school, obnoxiously green PiSoc hoodie!")
 
 ### Wednesday: Fresher's Fayre
 If you're not familiar, the fresher's fayre is an event the student union holds every year that allows students to explore the available societies and join the ones they're interested in.
