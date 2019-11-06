@@ -16,7 +16,7 @@ If you don't already use these tools and services, **your projects will greatly 
 
 
 
-![Swanky event poster](/img/project-management-2019.png "Linux101 talk and Install Party poster")
+![Swanky event poster](/img/2019/project-management.png "Linux101 talk and Install Party poster")
 
 
 
