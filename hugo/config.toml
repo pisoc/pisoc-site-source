@@ -18,12 +18,12 @@ theme = "pisoc-minimal"
     weight = 1
 
 [[menu.main]]
-    url = "/news"
+    url = "/news/*"
     name = "news"
     weight = 2
 
 [[menu.main]]
-    url = "/projects"
+    url = "/projects/*"
     name = "projects"
     weight = 3
 
