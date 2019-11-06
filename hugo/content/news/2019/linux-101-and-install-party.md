@@ -25,7 +25,7 @@ After a brief intermission for the aforementioned free pizza, we'll be starting 
 
 **IF YOU PLAN ON INSTALLING LINUX WITH US, PLEASE BACK UP YOUR FILES BEFORE COMING TO OUR EVENT - WE ARE NOT RESPONSIBLE FOR ANY LOSS OF DATA THAT OCOURS IF YOU FAIL TO DO SO!**
 
-![Swanky event poster](/img/linux-101-and-install-party.png "Linux101 talk and Install Party poster")
+![Swanky event poster](/img/2019/linux-101-and-install-party.png "Linux101 talk and Install Party poster")
 
 
 

@@ -11,5 +11,5 @@ Whilst we were there we got to try out many machines from computing history, fro
 
 Due to the interactive nature of the exhibits PiSoc definitely left its mark.
 
-![I think they might be mad](/img/troll.jpg)
-![The president](/img/el_presidente.jpg)
+![I think they might be mad](/img/2017/troll.jpg)
+![The president](/img/2017/el_presidente.jpg)

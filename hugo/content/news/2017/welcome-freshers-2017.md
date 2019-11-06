@@ -19,4 +19,4 @@ So, if you have questions about programming, want to learn professional skills f
 
 #### We hope to see you at the fayre, or on friday!
 
-![Gameathon poster](/img/gameathon_one_2017.png)
+![Gameathon poster](/img/2017/gameathon_one_2017.png)
