@@ -12,7 +12,7 @@ We've had a awful lot of fun running events for the past week. If you missed out
 ### Tuesday: Computer Science Induction talks
 You may have seen our president, Chris Delee, give an "intro to PiSoc" talk at the induction day event. It covered  who we are, what we do, and where you can find us if you want to get involved. If you didn't get a chance to see the talk, or speak to us during the break/lab session, you can read our 2019 welcome post [here](https://pisoc.net/news/welcome-freshers-2019/). It should bring you up to speed!
 
-![Tom up at the podium](/img/induction_talk_2019.jpg "An old school, obnoxiously green PiSoc hoodie!")
+![Tom up at the podium](/img/2019/induction_talk.jpg "An old school, obnoxiously green PiSoc hoodie!")
 
 ### Wednesday: Fresher's Fayre
 If you're not familiar, the fresher's fayre is an event the student union holds every year that allows students to explore the available societies and join the ones they're interested in.
@@ -21,14 +21,14 @@ We had a blast meeting all of you, talking about what we do, and showing you a f
 
 If you signed up with us at any time on Wednesday, you were entered into a raffle to win an Arduino Nano compatible microcontroller. We had three to give out, and they've gone to Maryam, Tobias and Mustafa! 
 
-![Fresher's Fayre stall](/img/freshers_fayre_2019.jpg "Live work on an arduino project")
+![Fresher's Fayre stall](/img/2019/freshers_fayre.jpg "Live work on an arduino project")
 
 ### Thursday: Drone hacking demo
 Everyone likes drones. Everyone likes a cool hack. Everyone likes a bit of competition. This event combined all three! While nobody quite managed to knock our drone out of the sky, some of the teams got very close!
 
 If you enjoyed the event and wanted to learn a bit more about hacking drones, you'll like [this](https://www.youtube.com/watch?v=5CzURm7OpAA) talk from [DEFCON 23](https://en.wikipedia.org/wiki/DEF_CON).
 
-![The drone goes down](/img/drone_kill_2019.png "Chris demonstrating his l33t h4xx0r skillz")
+![The drone goes down](/img/2019/drone_kill.png "Chris demonstrating his l33t h4xx0r skillz")
 
 ### Friday: Gameathon
 
@@ -42,13 +42,13 @@ The winners are as follows:
 
 All of the above received a Raspberry Pi starter kit and a box chock-full of electronics, perfect for any project you could imagine.
 
-![Video games!](/img/gameathon_2019.jpg "An intense Xonotic match set to Mick Gordon's BFG Divison")
+![Video games!](/img/2019/gameathon.jpg "An intense Xonotic match set to Mick Gordon's BFG Divison")
 
 ### Friday: 2019's first PiSoc social
 
 Those that came along to the gameathon were invited to come out for a (in our opinion, very well deserved) drink with us after to round off the week.
 
-![Video games!](/img/social_2019.jpg "A few rounds of Cards Against Humanity in The Exchange")
+![Socialising!](/img/2019/social.jpg "A few rounds of Cards Against Humanity in The Exchange")
 
 ### Closing words from Chris
 

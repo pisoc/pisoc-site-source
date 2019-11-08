@@ -17,4 +17,4 @@ So, feel free to drop by if you're interested in installing Linux on your comput
 
 # Most importantly, there will be free pizza!
 
-![Linux install poster](/img/install_party_2017_2.png)
+![Linux install poster](/img/2017/install_party_2.png)

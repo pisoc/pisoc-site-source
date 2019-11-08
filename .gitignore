@@ -2,3 +2,4 @@
 .vscode/
 hugo/public/*
 hugo/themes/*
+hugo.exe
