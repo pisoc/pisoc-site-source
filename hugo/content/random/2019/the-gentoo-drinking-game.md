@@ -38,7 +38,7 @@ Install Gentoo. Follow these rules:
 ### Continue playing until... 
 
 - Gentoo has been installed
-- You far too inebriated to continue
+- You are far too inebriated to continue
 - The pub wifi proves too slow to download the Stage 3 tarball and everyone gets bored of waiting
 
 ![Tom shrugging](/img/2019/gdg-shrug.jpg "*shrug*")
