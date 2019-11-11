@@ -1,6 +1,7 @@
 languageCode = "en"
 title = "Pi Society"
 theme = "pisoc-minimal"
+pluralizelisttitles = "false"
 
 [params]
     githubUsername = "pisoc"
@@ -28,29 +29,34 @@ theme = "pisoc-minimal"
     weight = 3
 
 [[menu.main]]
+    url = "/random/*"
+    name = "random"
+    weight = 4
+
+[[menu.main]]
     url = "/contact"
     name = "contact"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc/"
     name = "join"
-    weight = 5
+    weight = 6
 
 [[menu.main]]
     url = "https://github.com/pisoc"
     name = "github"
-    weight = 6
+    weight = 7
 
 [[menu.main]]
     url = "https://www.facebook.com/groups/ubupisoc"
     name = "facebook"
-    weight = 7
+    weight = 8
 
 [[menu.main]]
     url = "mailto:pisoc@ubu.bradford.ac.uk"
     name = "email"
-    weight = 8
+    weight = 9
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
