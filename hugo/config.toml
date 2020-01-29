@@ -49,7 +49,7 @@ pluralizelisttitles = "false"
     weight = 7
 
 [[menu.main]]
-    url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc"
+    url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc/join"
     name = "join"
     weight = 8
 
