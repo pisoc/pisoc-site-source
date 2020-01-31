@@ -49,24 +49,29 @@ pluralizelisttitles = "false"
     weight = 7
 
 [[menu.main]]
+    url = "/meetings"
+    name = "meetings"
+    weight = 8
+
+[[menu.main]]
     url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc/join"
     name = "join"
-    weight = 8
+    weight = 9
 
 [[menu.main]]
     url = "https://github.com/pisoc"
     name = "github"
-    weight = 9
+    weight = 10
 
 [[menu.main]]
     url = "https://www.facebook.com/groups/ubupisoc"
     name = "facebook"
-    weight = 10
+    weight = 11
 
 [[menu.main]]
     url = "mailto:pisoc@ubu.bradford.ac.uk"
     name = "email"
-    weight = 11
+    weight = 12
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
