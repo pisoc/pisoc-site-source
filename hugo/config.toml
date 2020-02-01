@@ -19,44 +19,59 @@ pluralizelisttitles = "false"
     weight = 1
 
 [[menu.main]]
-    url = "/news/*"
+    url = "/news"
     name = "news"
     weight = 2
 
 [[menu.main]]
-    url = "/projects/*"
-    name = "projects"
+    url = "/events"
+    name = "events"
     weight = 3
 
 [[menu.main]]
-    url = "/random/*"
-    name = "random"
+    url = "/projects"
+    name = "projects"
     weight = 4
+
+[[menu.main]]
+    url = "/minutes"
+    name = "minutes"
+    weight = 5
+
+[[menu.main]]
+    url = "/random"
+    name = "random"
+    weight = 6
 
 [[menu.main]]
     url = "/contact"
     name = "contact"
-    weight = 5
+    weight = 7
 
 [[menu.main]]
-    url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc/"
+    url = "/meetings"
+    name = "meetings"
+    weight = 8
+
+[[menu.main]]
+    url = "http://www.bradfordunisu.co.uk/groups/pi-society-pisoc/join"
     name = "join"
-    weight = 6
+    weight = 9
 
 [[menu.main]]
     url = "https://github.com/pisoc"
     name = "github"
-    weight = 7
+    weight = 10
 
 [[menu.main]]
     url = "https://www.facebook.com/groups/ubupisoc"
     name = "facebook"
-    weight = 8
+    weight = 11
 
 [[menu.main]]
     url = "mailto:pisoc@ubu.bradford.ac.uk"
     name = "email"
-    weight = 9
+    weight = 12
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used

@@ -61,15 +61,17 @@ def verify_webhook(request):
     app.logger.info(f'Received:  {received}')
     return hmac.compare_digest(predicted, received)
 
-@app.route('/')
-def index():
-    """Serves the index page"""
-    return serve_from_public('index.html')
 
-
+@app.route('/', defaults={'path_to_resource': ''})
 @app.route('/<path:path_to_resource>')
-def other_resources(path_to_resource):
-    """Serves all resources that are not /index.html"""
+def serve_content(path_to_resource):
+    """Serves all site content.
+    When an index page is requested, the index.html for that given dir is served.
+    If a resource is requested, it serves the named resource.
+    """
+    if path_to_resource == '':
+        return serve_from_public('index.html')
+
     return serve_from_public(path_to_resource)
 
 
