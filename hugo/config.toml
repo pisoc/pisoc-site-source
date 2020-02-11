@@ -63,14 +63,19 @@ pluralizelisttitles = "false"
     name = "github"
     weight = 10
 
-[[menu.main]]
-    url = "https://www.facebook.com/groups/ubupisoc"
-    name = "facebook"
-    weight = 11
+# [[menu.main]]
+#     url = "https://www.facebook.com/groups/ubupisoc"
+#     name = "facebook"
+#     weight = 11
+
+# [[menu.main]]
+#     url = "mailto:pisoc@ubu.bradford.ac.uk"
+#     name = "email"
+#     weight = 12
 
 [[menu.main]]
-    url = "mailto:pisoc@ubu.bradford.ac.uk"
-    name = "email"
+    url = "/picon-2020"
+    name = "picon"
     weight = 12
 
 # Social icons to be shown on the right-hand side of the navigation bar
