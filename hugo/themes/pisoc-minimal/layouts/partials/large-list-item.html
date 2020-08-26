@@ -1,0 +1,17 @@
+{{/* Used in default singles */}}
+
+<div class="item">
+
+  <h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+
+  {{ if eq "news" .Type }}
+    <h5> Posted: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
+  {{ end }}
+
+  {{ if eq "projects" .Type }}
+    <h5>Posted: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }} | Author: {{ .Params.author }}</h5>
+    <h5>Repository: <a href="{{ .Params.repo }}">{{ .Params.repo }}</a></h5>
+  {{ end }}
+
+  {{ partial "tags" .}}
+</div>

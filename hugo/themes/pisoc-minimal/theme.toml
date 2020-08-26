@@ -1,0 +1,12 @@
+name = "PiSoc Minimal"
+license = "MIT"
+licenselink = "https://github.com/pisoc/pisoc-minimal/blob/master/LICENSE.md"
+description = "A fork of calintat's minimal theme, modified for pisoc.net"
+homepage = "https://github.com/pisoc/pisoc-minimal"
+tags = ["blog", "minimal", "personal", "responsive"]
+features = ["responsive"]
+min_version = "0.27.1"
+
+[author]
+  name = "Tom Mitchell"
+  homepage = "https://pisoc.net"

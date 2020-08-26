@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 55px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+main {
+    padding: 25px;
+    flex: 1 0 auto;
+}
+
+/*footer*/
+
+.copyright {
+    margin: 15px 0;
+}
+
+/*home page*/
+
+.tall-row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.site-title {
+    color: #212121;
+    font-size: 12vh;
+}
+
+.site-subtitle {
+    color: #757575;
+    font-size: 3vmin;
+}
+
+/*apply accent colour to links*/
+
+a:link, a:visited {
+    color: var(--accent);
+}
+
+a.icon:hover {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent) !important;
+}
+
+/*paginator at bottom of list view*/
+
+.pages {
+    padding: 15px 0;
+}
+
+.pages-icon {
+    padding: 0 15px;
+}
+
+/*list item for posts and projects*/
+
+.item-tag {
+    background-color: var(--accent);
+}
+
+/*navigation bar icons*/
+
+ul.nav.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+
+ul.nav.navbar-nav > li {
+    float: none;
+    display: inline-block;
+}
+
+.navbar-icon {
+    font-size: 125%;
+    display: inline-block !important;
+}
+
+/*coloured borders at top and bottom of the page*/
+
+.navbar.navbar-default {
+    border-top: var(--border-width) solid var(--accent);
+}
+
+footer {
+    border-bottom: var(--border-width) solid var(--accent);
+}
+
+img {
+    max-width: 100%;
+}
+
+th {
+    text-align: center !important;
+}
