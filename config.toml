@@ -73,10 +73,11 @@ pluralizelisttitles = "false"
 #     name = "email"
 #     weight = 12
 
-[[menu.main]]
-    url = "/picon-2020"
-    name = "picon"
-    weight = 12
+# :c
+#[[menu.main]]
+#    url = "/picon-2020"
+#    name = "picon"
+#    weight = 12
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
