@@ -18,19 +18,19 @@ type = "contact"
 
         <h3>Everyone from our exec team can be reached by email:</h3>
         <h3>President -
-          <a href="mailto:cdelee@bradford.ac.uk">Chris Delee</a>
+          <a href="mailto:tffiguei@bradford.ac.uk">Tiago Grelo</a>
         </h3>
         <h3>Secretary -
-          <a href="mailto:shall9@bradford.ac.uk">Stephen Hall</a>
+          <a href="mailto:lasobral@bradford.ac.uk">Lucas Sobral</a>
         </h3>
         <h3>Treasurer -
-          <a href="mailto:arvmayes@bradford.ac.uk">Alex Mayes</a>
+          <a href="mailto:sttsenov@bradford.ac.uk">Svetoslav Tsenov</a>
         </h3>
         <h3>Social Exec -
-          <a href="mailto:tmitche1@bradford.ac.uk">Tom Mitchell</a>
+          <a href="mailto:lgarcia1@bradford.ac.uk">Garcia Serra</a>
         </h3>
         <h3>Technical Exec -
-          <a href="mailto:byarker1@bradford.ac.uk">Ben Yarker</a>
+          <a href="mailto:bgdawson@bradford.ac.uk">Bailey Dawson</a>
         </h3>
 
         <br>
