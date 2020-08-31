@@ -7,16 +7,17 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
+    color: #42464c !important;
 }
 
 main {
     padding: 25px;
     flex: 1 0 auto;
-    background-color: #060606;
+    background-color: #000000;
 }
 
-h2,h3,h5 {
-    color: white;
+h1,h2,h3,h5 {
+    color: white !important;
 }
 
 /*footer*/
