@@ -4,28 +4,32 @@
 
 <main>
 
-  {{ partial "large-list-item" . }}
+  <div class="container">
 
-  <br> <div class="text-justify">{{ .Content }}</div>
+    {{ partial "large-list-item" . }}
 
-  <!-- related posts with the same tags -->
-  {{ $related := first 3 (where (where (where .Site.Pages.ByDate.Reverse ".Type" "==" "post") ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
+    <br> <div class="text-justify">{{ .Content }}</div>
 
-  {{ if $related }}
+    <!-- related posts with the same tags -->
+    {{ $related := first 3 (where (where (where .Site.Pages.ByDate.Reverse ".Type" "==" "post") ".Params.tags" "intersect" .Params.tags) "Permalink" "!=" .Permalink) }}
 
-      <h4 class="page-header">Related</h4>
+    {{ if $related }}
 
-      {{ range $related }} {{ partial "list-item" . }} {{ end }}
+        <h4 class="page-header">Related</h4>
 
-  {{ end }}
+        {{ range $related }} {{ partial "list-item" . }} {{ end }}
 
-  {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
+    {{ end }}
 
-      <h4 class="page-header">Comments</h4>
+    {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
 
-      {{ template "_internal/disqus.html" . }}
+        <h4 class="page-header">Comments</h4>
 
-  {{ end }}
+        {{ template "_internal/disqus.html" . }}
+
+    {{ end }}
+
+  </div>
 
 </main>
 
