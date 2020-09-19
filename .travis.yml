@@ -14,5 +14,7 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: public
+  repo: pisoc/pisoc.github.io
+  target_branch: master
   on:
     branch: master
