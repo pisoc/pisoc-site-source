@@ -16,5 +16,6 @@ deploy:
   local_dir: public
   repo: pisoc/pisoc.github.io
   target_branch: master
+  keep_history: true
   on:
     branch: master
