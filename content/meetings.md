@@ -14,10 +14,11 @@ type = "meeting"
 
     <div class="row tall-row">
       <div class="col-md-12">
-        <h2>PiSoc holds society meetings every Monday at 18:30 in Horton D1.01</h2>
+        <h2>
+          Currently PiSoc holds society meetings every Wednesday at 18:00 on our <a href="https://discord.com/invite/8yMqzya">Discord Server</a>.
+        </h2>
       </div>
     </div>
-
     <div class="row tall-row">
       <div class="col-md-12">
         <h3>Our meetings are the best place to get help with anything tech-related.</h3>
@@ -29,14 +30,15 @@ type = "meeting"
         </h3>
       </div>
     </div>
-
     <div class="row tall-row">
       <div class="col-md-12">
         <h3>
           If you'd like to get in contact with us, you can find our details <a href="/contact">here</a>.
         </h3>
+        <h4>
+          We are currently acessing the COVID-19 situation for possible presencial meetings.   
+        </h4>
       </div>
     </div>
-
   </div>
 </main>
