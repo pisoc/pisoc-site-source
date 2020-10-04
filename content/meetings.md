@@ -15,7 +15,7 @@ type = "meeting"
     <div class="row tall-row">
       <div class="col-md-12">
         <h2>
-          Currently PiSoc holds society meetings every Wednesday at 18:00 on our <a href="https://discord.com/invite/8yMqzya">Discord Server</a>.
+          Currently PiSoc holds society meetings every Wednesday at 18:00 on our <a href="https://discord.com/invite/8yMqzya">Discord server</a>.
         </h2>
       </div>
     </div>
