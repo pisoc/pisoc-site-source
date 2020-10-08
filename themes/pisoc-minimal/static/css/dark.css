@@ -23,6 +23,7 @@ p {
     color: #a0a2a5;
 }
 
+
 /*footer*/
 
 .copyright {
@@ -113,4 +114,8 @@ img {
 
 th {
     text-align: center !important;
+}
+
+li {
+	color: gray !important;
 }
