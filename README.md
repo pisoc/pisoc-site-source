@@ -1,5 +1,8 @@
 # pisoc.net
 
+[![Build Status](https://travis-ci.org/pisoc/pisoc-site-source.svg?branch=master)](https://travis-ci.org/pisoc/pisoc-site-source)
+
+
 ## Editing and contributing
 1. Create a fork of this project ([click here!](https://github.com/pisoc/pisoc.net/fork))
 2. Clone your new fork (`git clone <repo link>`). The theme is included, so you only need to pull the one repo.
