@@ -5,10 +5,6 @@ meetingDate: 2020-10-07
 draft: false
 ---
 
-
-
----
-
 Chair: Lucas I guess
 
 People Present: Everyone
