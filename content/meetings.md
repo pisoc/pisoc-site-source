@@ -3,7 +3,9 @@ title = "Meetings"
 type = "meeting"
 +++
 
+
 <main>
+
   <div class="container-fluid">
 
     <div class="row tall-row">
@@ -40,5 +42,7 @@ type = "meeting"
         </h4>
       </div>
     </div>
+
   </div>
+  
 </main>

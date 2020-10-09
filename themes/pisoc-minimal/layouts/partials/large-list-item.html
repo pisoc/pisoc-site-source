@@ -13,5 +13,12 @@
     <h5>Repository: <a href="{{ .Params.repo }}">{{ .Params.repo }}</a></h5>
   {{ end }}
 
+  {{ if eq "minutes" .Type }}
+    <h5> Posted: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
+    {{ with .Params.meetingDate }}
+      <h5> Meeting date:  {{ dateFormat "January 2, 2006" . }}</h5>
+    {{ end }}
+  {{ end }}
+
   {{ partial "tags" .}}
 </div>

@@ -16,11 +16,11 @@
 {{ end }}
 
 {{ if eq "events" .Type }}
-  <h5> Posted: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
   {{ partial "tags" .}}
 {{ end }}
 
 {{ if eq "minutes" .Type }}
   <h5> Posted: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
   <h5> Meeting date: {{ dateFormat "January 2, 2006" .Params.meetingDate }}</h5>
+  {{ partial "tags" .}}
 {{ end }}   
