@@ -1,5 +1,5 @@
 ---
-title: "Welcome, 2020 Freshers"
+title: "Welcome, freshers"
 date: 2020-10-08
 tags: ["freshers", "welcome", "irl", "2020"]
 draft: false

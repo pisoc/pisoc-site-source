@@ -1,25 +1,31 @@
 ---
 title: "1st October Meeting"
-date: 2020-10-04
+date: 2020-10-08
 meetingDate: 2020-10-01
-tags: ["ExecMeeting"]
 draft: false
 ---
 
+
 ---
+
 Chair: Lucas
 
 People Present:
 
 - Tiago 
+
 - Lucas
+
 - Garcia
+
 - Slav
 
 Apologies:
 
 - Bailey
+
 - Chris
+
 - Stephen
 
 ---
@@ -27,51 +33,61 @@ Apologies:
 ### Agenda for Exec meeting:
 
 - Previous Meeting
+
 - Future Meetings
+
 - Magic Mirror
+
 - Pisoc Presents (youtube?)
-- PiCon(in-depth analysis)
-- See things virtual/physical
-- Just how do Weekly Discord meetings work?
+
+- PiCon (in-depth analysis)
+
+- Check future events (virtual/physical)
+
+- Weekly Discord meetings
+
 - Any other Business
 
 ---
 
 ### Previous meetings
 
-- Everything will be on Trello from now on. (Please check it to be aware of current activities.
+
+- Everything will be on Trello from now on. (Please check it to be aware of current activities)
+
+- So please Check it out.
 
 ---
 
 ### Future Meetings
 
-Check with all execs
+Check with all execs.
 3 to 5 at least starting hours.
-speak with other execs to Fortnite meetings
+Speak with other execs to Fortnightly meetings.
 
 ---
 
 ### Magic mirror 
 
 The magic mirror is with STeve.
-check magic mirror software (is it okay???)
-Adding features to git gud.
+Need to check magic mirror software (is it okay???).
+Adding features to make it better.
 
 ---
 
 ### Pisoc Presents
 
 Ask dan for zoom links to advertising Pisoc presents.
-speak to uni about doing pisoc presents(Tiago do it).
-record zoom meetings.
-ask if Do we have youtube/twitch then set it up to account.
+Speak to uni about doing pisoc presents(Tiago do it).
+Record zoom meetings.
+Ask if Do we have youtube/twitch then set it up to account.
 Needs Co-host to see the chat.
-advertise picon always.
-Everyone in computer science.
+Advertise picon always.
+For everyone in computer science.
  
-- Public speech -GARCIA
+- Public speech - Garcia
 
-- Linux 2nd semester maybe 
+- Linux 2nd semester maybe?
 
 - Git stuff
 
@@ -83,14 +99,14 @@ Everyone in computer science.
 
 ##### Current state
 
-try to 2nd semester
-Virtual only 
+Try to 2nd semester?
+Virtual only that's for sure
 
-get external speakers (think about to happen)
-decide days
-decide slots
-advertise picon in another uni.
- but everything with all execs
+Get external speakers (things about to happen)
+Decide days
+Decide slots
+Advertise picon in another uni.
+Check everything with all execs
 
 ---
 
