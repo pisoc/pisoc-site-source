@@ -2,6 +2,16 @@
 
 {{ define "main" }}
 
-{{ .Content }}
+<main>
+
+  <div class="container">
+
+    {{ partial "large-list-item" . }}
+
+    <br> <div class="text-justify">{{ .Content }}</div>
+
+  </div>
+
+</main>
 
 {{ end }}
