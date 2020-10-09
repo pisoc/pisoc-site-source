@@ -38,7 +38,7 @@ type = "meeting"
           If you'd like to get in contact with us, you can find our details <a href="/contact">here</a>.
         </h3>
         <h4>
-          We are currently assessing the COVID-19 situation for possible presencial meetings.   
+          We are currently assessing the COVID-19 situation for possible IRL meetings.   
         </h4>
       </div>
     </div>
