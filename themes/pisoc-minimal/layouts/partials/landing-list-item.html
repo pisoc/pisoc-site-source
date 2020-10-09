@@ -16,7 +16,6 @@
 {{ end }}
 
 {{ if eq "events" .Type }}
-  <h5> Posted: {{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>
   {{ partial "tags" .}}
 {{ end }}
 
