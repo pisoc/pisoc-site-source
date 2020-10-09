@@ -1,6 +1,6 @@
 ---
-title: "Welcome, 2019 Freshers"
-date: 2020-10-8
+title: "Welcome, 2020 Freshers"
+date: 2020-10-08
 tags: ["freshers", "welcome", "irl", "2020"]
 draft: false
 ---
@@ -30,7 +30,7 @@ Pisoc Presents Will be Delivered via Youtube# and Twitch# and will Usually start
 
 ### Picon
 
-![Picon](/static/img/2020/picon/picon-logo-shadow.png)
+![](/img/2020/picon/picon-logo-shadow.png)
 
 We are going to hold a virtual conference this year!!!
 It used to be Physical but with the pandemic and how UBU is handling the COVID-19 situation we had no other choice than doing it virtually.

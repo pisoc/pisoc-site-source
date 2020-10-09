@@ -55,7 +55,7 @@
 
     <div class="row tall-row">
 
-      <div class="col-md-6">
+      <div class="col-md-4">
         <h2>Weekly Meetings</h2>
         <h3>We hold our meetings every Wednesday</br>between 18:00 and 20:00 in our Discord server.</h3>
         <h5>
@@ -69,10 +69,9 @@
         <p>SOME TEXT HERE</p>
       </div> */}}
 
-      <div class="col-md-6">
+      <div class="col-md-8">
         <h2>Latest Minutes</h2>
-        <h3>Coming soon!</h3>
-        {{/* {{ range first 2 (where .Pages "Section" "minutes") }} {{ partial "landing-list-item" . }} {{ end }}*/}}
+        {{ range first 2 (where .Pages "Section" "minutes") }} {{ partial "landing-list-item" . }} {{ end }}
       </div>
 
     </div>
