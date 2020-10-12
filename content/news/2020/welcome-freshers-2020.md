@@ -17,6 +17,7 @@ We've got a load of interesting events on the horizon. Part of the roadmap for t
  * Linux install parties - we'll help you Linux-ify your laptop
  * Gameathons - play video games
  * Weekly meetings and socials
+ * We mainly use [Discord](https://discord.com/invite/8yMqzya) but we are also planning on using [Youtube](https://www.youtube.com/channel/UCSEzcMRrcFTEOsS2Tl8vNoA) and [Twitch](https://www.twitch.tv/pisociety_pisoc) so make sure you are following us !!!
 
 
 We also get up to fun nerdy shenanigans like [reversing](https://en.wikipedia.org/wiki/Reverse_engineering) bluetooth-powered kids toys, developing [Telegram](https://telegram.org/) bots when we're at the pub, or building terrible robots out of microcontrollers, hot glue and cardboard.
@@ -26,7 +27,7 @@ We also get up to fun nerdy shenanigans like [reversing](https://en.wikipedia.or
 We Look forward to Deliver Pisoc Presents Troughout the year. Pisoc Presents consists in Live talks done by our executive Team or external Speakers from the region. These Talks are answome to learn about how industries work from around the world, learn about how to use new software that's coming out and all kinds of new techonologies and branches there is to Computer Science. 
 You can also send your ideas to our [society email](mailto:pisoc@ubu.bradford.ac.uk) and you never know it might get into a Pisoc Presents.
 
-Pisoc Presents Will be Delivered via Youtube# and Twitch# and will Usually start around 6:00pm.
+Pisoc Presents Will be Delivered via [Youtube](https://www.youtube.com/channel/UCSEzcMRrcFTEOsS2Tl8vNoA) and [Twitch](https://www.twitch.tv/pisociety_pisoc) and will Usually start around 6:00pm.
 
 ### Picon
 
