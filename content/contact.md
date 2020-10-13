@@ -47,9 +47,9 @@ type = "contact"
       <div class="col-md-12">
         <h2>Socials</h2>
         <h3>
-          - If you're a member of the society, you can join our
-          <a href="https://www.facebook.com/groups/ubupisoc">Facebook group</a>.
-          - We usually hang around in our <a href="https://discord.com/invite/8yMqzya">Discord server</a>
+          If you're a member of the society, you can join our
+          <a href="https://www.facebook.com/groups/ubupisoc">Facebook group</a><br>
+          We also usually hang around in our <a href="https://discord.com/invite/8yMqzya">Discord server</a>.
 
         </h3>
       </div>
