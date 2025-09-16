@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PiSoc Personality Quiz</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      border: 2px solid green;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    .question {
+      margin-bottom: 20px;
+    }
+    label {
+      display: block;
+      margin: 5px 0;
+    }
+    button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+    #result {
+      margin-top: 30px;
+      padding: 15px;
+      border-top: 1px solid green;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>What's Your PiSoc Personality?</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. What's your favorite part of coding?</p>
+        <label><input type="radio" name="q1" value="logic"> Solving logic puzzles</label>
+        <label><input type="radio" name="q1" value="design"> Designing cool interfaces</label>
+        <label><input type="radio" name="q1" value="debug"> Fixing bugs and errors</label>
+        <label><input type="radio" name="q1" value="build"> Building things that work</label>
+      </div>
+      <div class="question">
+        <p>2. What's your ideal PiSoc event?</p>
+        <label><input type="radio" name="q2" value="hackathon"> Hackathon</label>
+        <label><input type="radio" name="q2" value="gamejam"> Game Jam</label>
+        <label><input type="radio" name="q2" value="workshop"> Workshop</label>
+        <label><input type="radio" name="q2" value="social"> Chill Social</label>
+      </div>
+      <div class="question">
+        <p>3. How do you like to work?</p>
+        <label><input type="radio" name="q3" value="solo"> Solo and focused</label>
+        <label><input type="radio" name="q3" value="team"> Collaboratively in a team</label>
+        <label><input type="radio" name="q3" value="chaotic"> Chaotic but creative</label>
+        <label><input type="radio" name="q3" value="mentor"> Helping others learn</label>
+      </div>
+      <button type="submit">Reveal My Type</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    document.getElementById("quizForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const q1 = document.querySelector('input[name="q1"]:checked')?.value;
+      const q2 = document.querySelector('input[name="q2"]:checked')?.value;
+      const q3 = document.querySelector('input[name="q3"]:checked')?.value;
+
+      if (!q1 || !q2 || !q3) {
+        document.getElementById("result").innerHTML = "<p>Please answer all questions!</p>";
+        return;
+      }
+
+      let personality = "";
+      let event = "";
+
+      // Determine personality type
+      if (q1 === "logic" && q3 === "solo") {
+        personality = "The Hacker";
+        event = "Join our Hackathon and test your skills!";
+      } else if (q1 === "design" && q2 === "gamejam") {
+        personality = "The Front-End Wizard";
+        event = "Our Game Jam is perfect for your creative flair!";
+      } else if (q1 === "debug" && q3 === "mentor") {
+        personality = "The Debugger";
+        event = "Come to our Study Sessions and help others thrive!";
+      } else if (q1 === "build" && q2 === "workshop") {
+        personality = "The Engineer";
+        event = "Attend our hands-on Workshops to build cool stuff!";
+      } else if (q3 === "chaotic") {
+        personality = "The Wildcard";
+        event = "You’ll love our meme nights and chaotic socials!";
+      } else {
+        personality = "The Collaborator";
+        event = "Team up at our Hackathons or Game Jams!";
+      }
+
+      document.getElementById("result").innerHTML = `
+        <h2>You are: ${personality}</h2>
+        <p>Suggested PiSoc Event: ${event}</p>
+      `;
+    });
+  </script>
+</body>
+</html>
