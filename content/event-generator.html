@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Build Your Own PiSoc Event</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      border: 2px solid green;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    h1 {
+      color: green;
+      text-align: center;
+    }
+    label {
+      display: block;
+      margin: 15px 0 5px;
+    }
+    select {
+      width: 100%;
+      padding: 8px;
+      border-radius: 5px;
+      border: none;
+      background-color: #222;
+      color: white;
+    }
+    button {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 20px;
+      border-radius: 5px;
+      width: 100%;
+    }
+    #result {
+      margin-top: 30px;
+      padding: 15px;
+      border-top: 1px solid green;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Build Your Own PiSoc Event</h1>
+    <label for="theme">Choose a theme:</label>
+    <select id="theme">
+      <option value="AI">AI</option>
+      <option value="Gaming">Gaming</option>
+      <option value="Hardware">Hardware</option>
+      <option value="Web Dev">Web Dev</option>
+      <option value="Cybersecurity">Cybersecurity</option>
+    </select>
+
+    <label for="format">Choose a format:</label>
+    <select id="format">
+      <option value="Hackathon">Hackathon</option>
+      <option value="Workshop">Workshop</option>
+      <option value="Social">Social</option>
+      <option value="Game Jam">Game Jam</option>
+      <option value="Study Session">Study Session</option>
+    </select>
+
+    <label for="snack">Pick a snack:</label>
+    <select id="snack">
+      <option value="Pizza">Pizza</option>
+      <option value="Biscuits">Biscuits</option>
+      <option value="Energy Drinks">Energy Drinks</option>
+      <option value="Bubble Tea">Bubble Tea</option>
+      <option value="Crisps">Crisps</option>
+    </select>
+
+    <button onclick="generateEvent()">Generate Event</button>
+
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function generateEvent() {
+      const theme = document.getElementById("theme").value;
+      const format = document.getElementById("format").value;
+      const snack = document.getElementById("snack").value;
+
+      const name = `${theme} ${format} Fiesta`;
+      const description = `Join us for a ${format.toLowerCase()} focused on ${theme}, powered by ${snack}! Expect good vibes, great minds, and plenty of ${snack.toLowerCase()} to fuel your creativity.`;
+
+      document.getElementById("result").innerHTML = `
+        <h2>${name}</h2>
+        <p>${description}</p>
+      `;
+    }
+  </script>
+</body>
+</html>
